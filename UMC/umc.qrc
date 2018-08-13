@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/UMC">
+        <file>Resources/images/layer_add.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{50243fac-7898-473b-9cfe-fa44b5d71457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stage">
+      <UniqueIdentifier>{78f77cad-0990-4993-911f-c3be6cdfdf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stage\sprite">
+      <UniqueIdentifier>{ad4aa54d-5da8-405c-8c2c-e266051169fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UML">
+      <UniqueIdentifier>{3b8a0e37-9640-4a4a-ad77-9afd7f327ab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="umc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_capture.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_stage.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_base_sprite.cpp">
+      <Filter>Source Files\stage\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_image_sprite.cpp">
+      <Filter>Source Files\stage\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_video_sprite.cpp">
+      <Filter>Source Files\stage\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_sprite_factor.cpp">
+      <Filter>Source Files\stage\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_stage_manager.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_stage_store.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="umc_stage_mediator.cpp">
+      <Filter>Source Files\stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="umc.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="umc_stage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="umc_stage_manager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="umc.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="umc_stage_manager.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="umc_stage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="umc.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="umc_capture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_base_sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_image_sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_video_sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_sprite_factor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_stage_store.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_stage_mediator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UMC.cd">
+      <Filter>UML</Filter>
+    </None>
+  </ItemGroup>
+</Project>
